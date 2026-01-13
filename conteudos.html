@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conteúdos | Performance, Conversão e IA</title>
+  <meta name="description" content="Insights curtos sobre performance, conversão, automação e dados.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="header-container">
+    <div class="logo">
+      <a class="logo-text" href="index.html" aria-label="Voltar para Home">&lt;LF/&gt;</a>
+    </div>
+
+    <nav class="navigation">
+      <ul class="menu">
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="cases.html">Cases</a></li>
+        <li><a href="processo.html">Processo</a></li>
+        <li><a href="auditoria.html">Auditoria</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn primary cta-header" data-whatsapp="diagnostic" href="#">
+        Agendar diagnóstico
+      </a>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema" aria-pressed="false">
+        <span class="theme-toggle-icon" aria-hidden="true">🌙</span>
+        <span class="theme-toggle-text">Tema</span>
+      </button>
+
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero" aria-label="Conteúdos">
+    <div class="section-container">
+      <h1 class="page-title">Conteúdos</h1>
+      <p class="page-subtitle">
+        Insights curtos e práticos para melhorar performance, conversão e automação.
+      </p>
+      <div style="margin-top: 1.5rem; display:flex; gap: 1rem; flex-wrap: wrap;">
+        <a class="btn primary" data-whatsapp="diagnostic" href="#">Agendar diagnóstico</a>
+        <a class="btn secondary" href="servicos.html">Ver serviços</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills">
+    <div class="section-container">
+      <h2 class="section-title">Artigos rápidos</h2>
+
+      <div class="content-list">
+        <article class="content-card">
+          <div class="content-meta">Performance • 3 min</div>
+          <h3>Checklist: o que mais derruba seu Core Web Vitals</h3>
+          <p>Imagens, fontes, JS pesado e falta de cache. Um roteiro simples para priorizar.</p>
+          <div style="margin-top: 1rem;">
+            <a class="project-link" href="auditoria.html">Aplicar na auditoria</a>
+          </div>
+        </article>
+
+        <article class="content-card">
+          <div class="content-meta">Conversão • 4 min</div>
+          <h3>CTA que converte: clareza, fricção e intenção</h3>
+          <p>Como estruturar acima da dobra, prova rápida e CTA consistente para WhatsApp.</p>
+          <div style="margin-top: 1rem;">
+            <a class="project-link" href="servicos.html#web">Ver serviço</a>
+          </div>
+        </article>
+
+        <article class="content-card">
+          <div class="content-meta">Automação • 5 min</div>
+          <h3>Fluxo básico: lead → qualificação → CRM</h3>
+          <p>O mínimo para tirar trabalho manual do caminho e ganhar previsibilidade.</p>
+          <div style="margin-top: 1rem;">
+            <a class="project-link" href="servicos.html#automacao">Ver detalhes</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <span class="logo-text">&lt;LF/&gt;</span>
+      </div>
+
+      <div class="footer-links" aria-label="Links do rodapé">
+        <a href="index.html">Home</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="cases.html">Cases</a>
+        <a href="processo.html">Processo</a>
+        <a href="auditoria.html">Auditoria</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </div>
+
+      <p class="copyright">
+        &copy; <span id="currentYear"></span> Lucas Fiuza. Todos os direitos reservados.
+      </p>
+      <p class="footer-tagline">
+        <span class="code-comment">// Performance, Conversão e IA</span>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<a
+  class="whatsapp-float"
+  data-whatsapp="diagnostic"
+  href="#"
+  aria-label="Agendar diagnóstico no WhatsApp"
+>
+  <span class="whatsapp-icon" aria-hidden="true">
+    <svg viewBox="0 0 32 32" role="img" aria-hidden="true">
+      <path fill="currentColor" d="M19.1 17.7c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.2-.4-2.2-1.4-.8-.7-1.3-1.6-1.4-1.8-.1-.3 0-.5.1-.6.1-.1.3-.4.5-.6.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6 0-.2-.7-1.7-.9-2.3-.2-.6-.4-.5-.6-.5h-.5c-.2 0-.6.1-.9.4-.3.3-1.1 1-1.1 2.5s1.1 3 1.3 3.2c.1.2 2.2 3.4 5.3 4.7.7.3 1.3.5 1.8.6.8.2 1.5.2 2.1.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.2.2-1.4-.1-.2-.3-.2-.6-.4Zm-3 10.2h-.1c-2.1 0-4.2-.6-6-1.7l-4.2 1.1 1.1-4.1c-1.2-1.9-1.8-4.2-1.8-6.5 0-6.4 5.2-11.6 11.6-11.6 3.1 0 6 1.2 8.2 3.4 2.2 2.2 3.4 5.1 3.4 8.2 0 6.4-5.2 11.6-11.6 11.6Z"/>
+    </svg>
+  </span>
+  <span>WhatsApp</span>
+  <span class="whatsapp-tooltip" role="tooltip">Diagnóstico rápido no WhatsApp</span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
